@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>INTENTO_28</title>
+</head>
+<body>
+<header>
+  <nav class="navbar mx-3 my-3  navbar-expand-lg navbar-light" style="background-color: #39c6f1;">
+
+    <div class="container ml-5">
+      <a class="navbar-brand " href="Inspira.html"><img class="mt-1" src="./images/logo.png" width="150px"
+          height="150px" id="imag" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra">
+        <span class="navbar-toggler-icon"></span><!-- crea el icono para contener al encabezado-->
+      </button>
+      <div class="collapse navbar-collapse" id="barra">
+        <!--permite conmprimir al encabezado cuando la pantalla es pequeña-->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="Inspira.html">Inicio</a>
+          </li>
+          <li class="nav-item"><a class="nav-link " href="#">tutoriales</a></li>
+          <li class="nav-item"><a class="nav-link " href="Novedades.html">Novedades</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="desplegable" data-toggle="dropdown">Catálogo</a>
+            <div class="dropdown-menu" aria-labelledby="desplegable">
+              <a class="dropdown-item " href="#">Dormitorio</a>
+              <a class="dropdown-item" href="#">Sala</a>
+              <a class="dropdown-item" href="#">Cocina</a>
+              <a class="dropdown-item" href="#">Estudio</a>
+              <a class="dropdown-item" href="#">Oficina</a>
+
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Registro</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-7 offset-2 " style="margin-left:-40px; margin-top: 18px;">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1>Entreteimiento</h1>
+              <img src="./images/mesa_tv_convertible.jpg" class="d-block w-100" width="600px" height="400px"
+                style="object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+              <h1>Cocina</h1>
+              <img src="./images/empotrado_cocina.jpg" class="d-block w-100" width="600px" height="400px"
+                style="object-fit: cover;">
+
+            </div>
+
+            <div class="carousel-item">
+              <h1>Estudio</h1>
+              <img src="./images/escritorio.jpg" class="d-block w-100" width="600px" height="400px"
+                style="object-fit: cover;">
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-4 offset-1 mt-5" bg-info id="presentacion">
+        <h2>Inspiramos tu mejor versión</h2>
+        <button class="btn btn-primary">ESTE BOTON ES DE PRUEBA</button>
+        <button class="btn btn-primary">ESTE BOTON ES DE PRUEBA</button>
+        <button class="btn btn-primary">ESTE BOTON ES DE PRUEBA</button>
+        <p>Somos una empresa especializada en el diseño, armado
+          y construcción en muebles de melamina.
+        </p>
+        <br> <br>
+        <p>Somos una empresa especializada en el diseño, armado
+          y construcción en muebles de melamina.
+        </p>
+        
+
+      </div>
+    </div>
+  </div>
+  <br> <br> <br> <br>
+
+  <footer>
+    <div class="row" id="pie">
+        <div class="col-1 offset-4">
+          <a href="#"><img src="./iconos/intgn.png"></a>
+        </div>
+        <div class="col-1">
+          <a href="#"><img src="./iconos/fb.png"></a>
+        </div>
+        <div class="col-1">
+          <a href="#"><img src="./iconos/yt.png"></a>
+        </div>
+        <div class="col-1" style="opacity: 1;">
+          <a href="#"><img src="./iconos/wtsp.png"></a>
+        </div>
+        
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
