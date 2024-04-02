@@ -1,0 +1,45 @@
+/* encabezado*/
+a>img{
+    background-color: re;
+    margin-left: 50px;
+}
+#bghead{
+    background-color: #39c6f1;
+    height: 20%;
+}
+
+div>ul>li>a{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+@media screen and(min-width:920px){
+  #boton{
+      justify-content: right;
+      background-color: red;
+
+  }  
+}
+/* cuerpo*/
+body{
+    background-image: url("../images/fondo_03.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px ;
+}
+
+#presentacion{
+    background-color: #39c6f1;
+     opacity: 0.7;
+     height:300px;
+}
+#carrusel{
+    margin-top:-120px;
+}
+
+#pie{
+    background-color: white;
+    opacity: 0.4;
+}
+#pie img{
+    height: 70px;
+}
