@@ -33,8 +33,11 @@ body{
     border-radius: 10px ;
      color: white;
 }
-#carrusel{
-    margin-top:-120px;
+#color-textura{
+    background-color: #015169;
+    opacity: 0.85;
+    border-radius: 10px ;
+    color: white;
 }
 
 #pie{
@@ -46,12 +49,11 @@ body{
 }
 
 @media screen and (max-width: 700px) {
-    #carrusel {
-        margin-left: 70px;
-        background-color: red;
+    #carouselExampleControls {
+        margin-left: 48px;
     }
-    #presentacion {
-        margin-left: 50px;
+    #color-textura {
         background-color: red;
+        margin-left: 28px;
     }
 }
