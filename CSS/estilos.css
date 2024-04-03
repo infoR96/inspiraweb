@@ -32,12 +32,14 @@ body{
      opacity: 0.85;
     border-radius: 10px ;
      color: white;
+     padding: 30px;
 }
 #color-textura{
     background-color: #015169;
     opacity: 0.85;
     border-radius: 10px ;
     color: white;
+    padding: 30px;    
 }
 
 #pie{
@@ -51,9 +53,21 @@ body{
 @media screen and (max-width: 700px) {
     #carouselExampleControls {
         margin-left: 48px;
+        width: 100%;
     }
     #color-textura {
-        background-color: red;
         margin-left: 28px;
     }
+}
+@media screen and (max-width: 380px) {
+    #colapse{
+        position: absolute;
+        top: 60px;
+        right: 10px;
+     
+    }
+    #colapseimage{
+        margin-left: -100px;
+    }
+
 }
