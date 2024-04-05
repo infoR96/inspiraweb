@@ -3,3 +3,12 @@
     border-radius: 10px ;
     
 }
+
+.imageofproduct{
+    border-radius: 15px ;
+}
+
+.descriptionofproduct{
+    opacity: 0.85;
+    border-radius: 20px ;
+}
